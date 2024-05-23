@@ -38,16 +38,13 @@
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="about.html"
-                title="about Diana Apalkova"
+              <a class="nav-link" href="about.html" title="about Diana Apalkova"
                 >About me</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 href="work.html"
                 title="work projects of Diana Apalkova"
                 >My work</a
@@ -66,27 +63,39 @@
       </div>
     </nav>
     <div class="hero">
-      <h1>👋 About me</h1>
-      <h3><i>Front-end developer based in London, UK</i></h3>
+      <h2>Some recent projects i've done!</h2>
     </div>
-    <div class="about-paragraphs">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
-        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum.
-      </p>
-      <br />
-      <div class="col-lg-5">
+    <br />
+    <div class="container d-flex flex-column align-items-center mb-5">
+      <div class="p-2 text-center">
         <img
-          src="images/diana.png"
-          class="rounded mx-auto w-75"
-          alt
-          class="img-fluid"
+          src="images/clock.png"
+          class="img-fluid small-img p-2 shadow rounded"
+          alt="screenshot of a world-clock application"
         />
+        <h4 class="text-center"><strong>World Clock Project</strong></h4>
+        <p class="text-center">built with HTML, CSS and JavaScript</p>
+      </div>
+      <div class="p-2 text-center">
+        <img
+          src="images/weather.png"
+          class="img-fluid small-img p-2 shadow rounded"
+          alt="screenshot of a weather application"
+        />
+        <h4 class="text-center"><strong>Weather App Project</strong></h4>
+        <p class="text-center">built with HTML, CSS and JavaScript</p>
+      </div>
+      <div class="p-2 text-center">
+        <img
+          src="images/ai-poem.png"
+          class="img-fluid small-img p-2 shadow rounded"
+          alt="screenshot of an ai poem application"
+        />
+        <h4 class="text-center"><strong>AI Project</strong></h4>
+        <p class="text-center">built with HTML, CSS and JavaScript</p>
       </div>
     </div>
-    <div class="contact-email" id="contact">
+    <div id="contact">
       <h2 class="text-center">📮 Contact me</h2>
       <a href="mailto:diana.apalkova@gmail.com" class="email-link">
         diana.apalkova@gmail.com
@@ -97,5 +106,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
