@@ -57,7 +57,7 @@ h4 {
 p {
   font-size: 18px;
   line-height: 1.5;
-  font-family: Raleway;
+  font-family: cabin;
 }
 .app-title {
   text-align: left;
@@ -95,11 +95,16 @@ p {
 }
 
 .about-paragraphs p {
-  font-family: Raleway;
+  font-family: cabin;
   line-height: 3em;
   margin: 0px 30px 10px 100px;
 }
-
+.examples {
+  font-family: cabin;
+}
+.examples p {
+  font-family: cabin;
+}
 img {
   max-width: 500px;
 }
